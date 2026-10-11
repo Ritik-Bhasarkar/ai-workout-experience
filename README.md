@@ -8,12 +8,17 @@ The intended flow keeps onboarding consistent for every start command: welcome, 
 
 The exercise experience includes play, pause, resume, restart, finish, and next controls; a timer and progress indicator; timed coach cues; and a rest countdown with a next-exercise preview when autoplay is on. The final exercise goes directly to completion. See [implementation.md](implementation.md) for the component map, state flow, setup, and current implementation notes.
 
-## Setup and checks
+## Setup, Build and checks
 
 Requires Node.js 22.18 or later and npm. Install dependencies with:
 
 ```sh
 npm ci --ignore-scripts
+```
+Run the application:
+
+```
+npm start
 ```
 
 Run the checks with:
